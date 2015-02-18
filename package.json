@@ -1,0 +1,16 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {
+    "express": "^4.10.1",
+    "jade": "^1.8.0",
+    "mocha": "^2.0.1",
+    "request": "^2.47.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.10.0"
+  }
+}

@@ -1,0 +1,23 @@
+//Created by lisabatbouta on 2/11/15.
+
+html
+   head
+      title= 'MQP Example'
+      script( src='https://code.jquery.com/jquery-2.1.1.min.js')
+      script( src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&q=hotels+in+Boston")
+      link( rel="stylesheet", href="stylesheets/style.css")
+      script( src="javascripts/myScript.js")
+
+   body
+      div#totalView
+         h1#hotels( align="left") Hotels
+         table#resultsTable
+            tbody#results
+         div#choicex
+            h1( align="left") Your Choices
+            table#choiceTable
+               tbody#choiceTableBody
+
+         input#pac-input( class="controls", type="text", placeholder="Search Box")
+      div#anotherbackground
+
